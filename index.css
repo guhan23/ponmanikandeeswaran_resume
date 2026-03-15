@@ -68,6 +68,7 @@ li {
     gap: 20px;
     padding: 20px;
     overflow: auto;
+    height: 90dvh !important;
   }
   #mobile-content {
     display: flex;
@@ -95,7 +96,8 @@ button {
   background-color: transparent !important;
   border: none !important;
   outline: none !important;
-  color: #fff;
+  border-radius: 50%;
+  background-color: #ccc !important;
 }
 .close-btn:hover {
   outline: none !important  ;
