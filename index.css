@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0c4d78;
+  color: #fff;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  padding: 5px 0;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.leftPane {
+  width: 30%;
+  padding: 20px;
+  overflow: auto; /* Fix */
+}
+.rightPane {
+  width: 70%;
+  padding: 20px;
+  overflow: auto; /* Fix */
+}
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.card-title::before {
+  content: "💻";
+  font-weight: bold;
+}
+
+#mobile-content {
+  display: none;
+}
+#mobile-menu > div {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.sidebar {
+  display: none;
+}
+@media screen and (max-width: 961px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+  .leftPane {
+    display: none;
+  }
+  .rightPane {
+    display: none;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #0c4d78;
+    color: #fff;
+    gap: 20px;
+    padding: 20px;
+  }
+  #mobile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100dvh;
+    padding: 20px;
+  }
+}
+
+button {
+  background-color: #09273c !important;
+  border: none !important;
+  outline: none !important;
+}
+.canvas-header {
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.close-btn {
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+  color: #fff;
+}
+.close-btn:hover {
+  outline: none !important  ;
+  color: #ccc;
+}
+.mbl-list {
+  min-height: 200px;
+}

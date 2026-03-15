@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Resume</title>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main class="mainContainer">
+      <div id="mobile-content">
+        <div class="d-flex flex-column align-items-center mb-4">
+          <img
+            class="profile-picture img-thumbnail rounded-circle"
+            src="./assets/ponmani-pfp.webp"
+            alt="profile-pfp"
+            style="display: block"
+          />
+          <section class="text-center">
+            <h4>Ponmanikandeeswaran</h4>
+            <span class=""
+              >A Senior Software developer, having over 7 yrs of experience in
+              web technologies. I'm familiar working in small teams, taking up
+              various end to end responsibilities, providing web solutions and
+              carrying out agile software development.
+            </span>
+          </section>
+        </div>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#staticBackdropSkills"
+          aria-controls="staticBackdropSkills"
+        >
+          Skills
+        </button>
+
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#staticBackdrop"
+          aria-controls="staticBackdrop"
+        >
+          Experience
+        </button>
+
+        <div
+          class="offcanvas offcanvas-start sidebar"
+          data-bs-backdrop="static"
+          tabindex="-1"
+          id="staticBackdropSkills"
+          aria-labelledby="staticBackdropLabelSkills"
+        >
+          <div class="offcanvas-header canvas-header">
+            <h5
+              class="offcanvas-title fs-4 font-semibold text-uppercase"
+              id="staticBackdropLabel"
+            >
+              Skills
+            </h5>
+            <button
+              type="button"
+              class="btn-close close-btn"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <ul class="list-unstyled mbl-list">
+            <li>
+              Frontend: HTML, CSS, JavaScript, React, Redux Toolkit, Vue,
+              Next.Js, React Native
+            </li>
+            <li>Backend: Node.js, Express, Flask</li>
+            <li>Databases: MongoDB, Postgres</li>
+            <li>Testing: Jest, React Testing Library</li>
+            <li>Tools: Git, GitHub Actions, AWS</li>
+          </ul>
+        </div>
+
+        <div
+          class="offcanvas offcanvas-start sidebar"
+          data-bs-backdrop="static"
+          tabindex="-1"
+          id="staticBackdrop"
+          aria-labelledby="staticBackdropLabel"
+        >
+          <div class="offcanvas-header canvas-header">
+            <h5
+              class="offcanvas-title fs-4 font-semibold text-uppercase"
+              id="staticBackdropLabel"
+            >
+              Experience
+            </h5>
+            <button
+              type="button"
+              class="btn-close close-btn"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <section>
+            <h3>PFF Analytics</h3>
+            <p class="">Senior Software Engineer (Dec 2023 - Present)</p>
+            <br />
+
+            <ul class="list-unstyled">
+              <li>
+                Experience working with NX based monorepo and developing new UI
+                features under Web Content Accessibility Guidelines (WCAG)
+              </li>
+              <li>
+                Experience building scalable UI components, micro frontends &
+                design systems based on Atomic Design principles.
+              </li>
+              <li>Experience building SSR & SSG based Nextjs apps with Nx.</li>
+              <li>
+                Experience building Chrome extensions for a cross platform
+                gaming feature including third party API integration based on
+                web sockets.
+              </li>
+              <li>
+                Handful experience with building features on React Native App
+                based on Expo.
+              </li>
+              <li>
+                Development experience based on React Native Web for cross
+                platform UI development with clean code, modular architecture,
+                and reusable components.
+              </li>
+              <li>
+                Experience working with Jest for Unit testing apps and
+                libraries.
+              </li>
+              <li>Built AWS Lambda based serverless REST APIs.</li>
+              <li>
+                Experience working with GitHub Actions and AWS CodeBuild to
+                automate testing, builds, and deployments.
+              </li>
+              <li>
+                Experience developing features on Elixir language based Phoenix
+                Framework for our primary web application.
+              </li>
+              <li>
+                Have Experience working with analytics tools like Heap and
+                feature flag tools like LaunchDarkly.
+              </li>
+              <li>
+                Experience integrating widgets for website cookie policy with
+                GDPR compliance.
+              </li>
+              <li>
+                Basic experience working in PHP for Wordpress integration for
+                the site.
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Crayon data</h3>
+            <p class="">UI Engineer (Oct 2021 - Dec 2023)</p>
+            <br />
+
+            <ul class="list-unstyled">
+              <li>
+                Developed an UI widget for a banking client using Vue.Js and
+                done upgrades to the widget based on client requirements and
+                feedback.
+              </li>
+              <li>
+                Majorly involved in developing an E-commerce site, a React based
+                web app for banking clients.
+              </li>
+              <li>
+                Image & Performance optimization for e-commerce site with help
+                of Lighthouse & WebPageTest
+              </li>
+              <li>Integrated analytics tool Matomo to the web apps.</li>
+              <li>
+                Handling Release of the web app for the above mentioned
+                applications with Jenkins
+              </li>
+              <li>
+                Developed Nextjs based internal apps practicing Agile
+                methodology with JIRA & CONFLUENCE.
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Tata Consultancy Services</h3>
+            <p class="">Developer (Sep 2018 - Oct 2021)</p>
+            <br />
+
+            <ul>
+              <li>
+                Developed a Reporting Dashboard tool with React & Bootstrap for
+                implementing responsive Tables, Forms, Modals etc and Graphs,
+                Pie-Charts, etc. using libraries like @nivo for data
+                visualization and analysis.
+              </li>
+              <li>Developed Search module for the reporting tool.</li>
+              <li>Implemented a JWT based login feature to the dashboard.</li>
+              <li>
+                Developed API’s for the application using Express.Js and Flask
+                Frameworks.
+              </li>
+              <li>
+                Experience building reverse proxy with Nginx for the backend
+                services.
+              </li>
+              <li>Hands on experience with SQL on Oracle database.</li>
+              <li>
+                Developed a task scheduler, setting up CRON Jobs for generating
+                reports for the dashboard using modules like Apscheduler.
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <header class="d-flex flex-column align-items-center mb-4">
+          <div>
+            <p class="text-center">📩 ponmanikandeeswaran@gmail.com</p>
+            <p class="text-center">📞 +91 9442506735</p>
+            <p class="text-center">📍 Chennai, India</p>
+          </div>
+        </header>
+      </div>
+      <div class="leftPane">
+        <div>
+          <img
+            class="profile-picture img-thumbnail rounded-circle"
+            src="./assets/ponmani-pfp.webp"
+            alt="profile-pfp"
+          />
+        </div>
+        <header>
+          <h1 class="fs-4 font-semibold text-uppercase">Contact</h1>
+          <ul class="text-wrap list-unstyled">
+            <li class="text-break">📩 ponmanikandeeswaran@gmail.com</li>
+            <li>📞 +91 9442506735</li>
+            <li>📍 Chennai, India</li>
+          </ul>
+        </header>
+        <section>
+          <h2 class="fs-4 font-semibold text-uppercase">Skills</h2>
+          <ul class="list-unstyled">
+            <li>
+              Frontend: HTML, CSS, JavaScript, React, Redux Toolkit, Vue,
+              Next.Js, React Native
+            </li>
+            <li>Backend: Node.js, Express, Flask</li>
+            <li>Databases: MongoDB, Postgres</li>
+            <li>Testing: Jest, React Testing Library</li>
+            <li>Tools: Git, GitHub Actions, AWS</li>
+          </ul>
+        </section>
+        <section>
+          <h2 class="fs-4 font-semibold text-uppercase">Languages</h2>
+          <ul class="list-unstyled">
+            <li>English: Fluent</li>
+            <li>Tamil: Native</li>
+          </ul>
+        </section>
+      </div>
+      <div class="rightPane">
+        <div class="d-flex flex-column align-items-center mb-4">
+          <section class="text-center">
+            <h4>Ponmanikandeeswaran</h4>
+            <span class=""
+              >A Senior Software developer, having over 7 yrs of experience in
+              web technologies. I'm familiar working in small teams, taking up
+              various end to end responsibilities, providing web solutions and
+              carrying out agile software development.
+            </span>
+          </section>
+        </div>
+        <div>
+          <div>
+            <section>
+              <h3>PFF Analytics</h3>
+              <p class="">Senior Software Engineer (Dec 2023 - Present)</p>
+              <br />
+
+              <ul class="list-unstyled">
+                <li>
+                  Experience working with NX based monorepo and developing new
+                  UI features under Web Content Accessibility Guidelines (WCAG)
+                </li>
+                <li>
+                  Experience building scalable UI components, micro frontends &
+                  design systems based on Atomic Design principles.
+                </li>
+                <li>
+                  Experience building SSR & SSG based Nextjs apps with Nx.
+                </li>
+                <li>
+                  Experience building Chrome extensions for a cross platform
+                  gaming feature including third party API integration based on
+                  web sockets.
+                </li>
+                <li>
+                  Handful experience with building features on React Native App
+                  based on Expo.
+                </li>
+                <li>
+                  Development experience based on React Native Web for cross
+                  platform UI development with clean code, modular architecture,
+                  and reusable components.
+                </li>
+                <li>
+                  Experience working with Jest for Unit testing apps and
+                  libraries.
+                </li>
+                <li>Built AWS Lambda based serverless REST APIs.</li>
+                <li>
+                  Experience working with GitHub Actions and AWS CodeBuild to
+                  automate testing, builds, and deployments.
+                </li>
+                <li>
+                  Experience developing features on Elixir language based
+                  Phoenix Framework for our primary web application.
+                </li>
+                <li>
+                  Have Experience working with analytics tools like Heap and
+                  feature flag tools like LaunchDarkly.
+                </li>
+                <li>
+                  Experience integrating widgets for website cookie policy with
+                  GDPR compliance.
+                </li>
+                <li>
+                  Basic experience working in PHP for Wordpress integration for
+                  the site.
+                </li>
+              </ul>
+            </section>
+
+            <section>
+              <h3>Crayon data</h3>
+              <p class="">UI Engineer (Oct 2021 - Dec 2023)</p>
+              <br />
+
+              <ul class="list-unstyled">
+                <li>
+                  Developed an UI widget for a banking client using Vue.Js and
+                  done upgrades to the widget based on client requirements and
+                  feedback.
+                </li>
+                <li>
+                  Majorly involved in developing an E-commerce site, a React
+                  based web app for banking clients.
+                </li>
+                <li>
+                  Image & Performance optimization for e-commerce site with help
+                  of Lighthouse & WebPageTest
+                </li>
+                <li>Integrated analytics tool Matomo to the web apps.</li>
+                <li>
+                  Handling Release of the web app for the above mentioned
+                  applications with Jenkins
+                </li>
+                <li>
+                  Developed Nextjs based internal apps practicing Agile
+                  methodology with JIRA & CONFLUENCE.
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h3>Tata Consultancy Services</h3>
+              <p class="">Developer (Sep 2018 - Oct 2021)</p>
+              <br />
+
+              <ul>
+                <li>
+                  Developed a Reporting Dashboard tool with React & Bootstrap
+                  for implementing responsive Tables, Forms, Modals etc and
+                  Graphs, Pie-Charts, etc. using libraries like @nivo for data
+                  visualization and analysis.
+                </li>
+                <li>Developed Search module for the reporting tool.</li>
+                <li>Implemented a JWT based login feature to the dashboard.</li>
+                <li>
+                  Developed API’s for the application using Express.Js and Flask
+                  Frameworks.
+                </li>
+                <li>
+                  Experience building reverse proxy with Nginx for the backend
+                  services.
+                </li>
+                <li>Hands on experience with SQL on Oracle database.</li>
+                <li>
+                  Developed a task scheduler, setting up CRON Jobs for
+                  generating reports for the dashboard using modules like
+                  Apscheduler.
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
