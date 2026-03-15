@@ -3,10 +3,6 @@ body {
   background-color: #0c4d78;
   color: #fff;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
 li {
   padding: 5px 0;
 }
@@ -71,6 +67,7 @@ li {
     color: #fff;
     gap: 20px;
     padding: 20px;
+    overflow: auto;
   }
   #mobile-content {
     display: flex;
@@ -106,4 +103,8 @@ button {
 }
 .mbl-list {
   min-height: 200px;
+}
+
+.section-border {
+  border-top: 2px solid #fff;
 }
