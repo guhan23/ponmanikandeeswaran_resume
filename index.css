@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #0c4d78;
+  background: linear-gradient(-45deg, #0c4d78, #09273c);
   color: #fff;
 }
 li {
@@ -43,6 +43,17 @@ li {
   height: 5px;
   background-color: white;
   margin: 6px 0;
+}
+.header {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(154, 182, 210);
+}
+
+.name-header {
+  font-size: 2em;
+  font-weight: bold;
+  color: #8fd7ec;
 }
 
 .sidebar {
